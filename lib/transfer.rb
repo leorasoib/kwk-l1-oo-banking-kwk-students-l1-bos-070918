@@ -1,3 +1,5 @@
 class Transfer
-  # code here
+  def initialize(transfer)
+    @transfer = transfer
+  end 
 end
