@@ -1,4 +1,5 @@
 class Transfer
+<<<<<<< HEAD
 attr_accessor :sender, :receiver, :amount, :status
 def initialize(sender, receiver, amount)
   @sender = sender
@@ -32,3 +33,9 @@ def reverse_transfer
   end 
 end 
 end 
+=======
+  def initialize(transfer)
+    @transfer = transfer
+  end 
+end
+>>>>>>> eca4bab16a5a7681144b8adcc89a1f4651b6aeba
